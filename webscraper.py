@@ -11,3 +11,5 @@ bbbs = soup.find_all('div', class_ = 'lg:hover:ds-bg-ui-fill-translucent ds-hove
 for ball in bbbs:
     bowlertobatter = ball.find('div', class_ = 'ds-leading-none ds-mb-0.5').text
     print(bowlertobatter)
+
+    
